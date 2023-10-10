@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>面试 | 许益样的博客</title>
+    <meta name="generator" content="VuePress 1.9.7">
+    <link rel="icon" href="/avatar.png">
+    <meta name="description" content="">
+    
+    <link rel="preload" href="/assets/css/0.styles.7b36eabc.css" as="style"><link rel="preload" href="/assets/js/app.a5311784.js" as="script"><link rel="preload" href="/assets/js/2.eeb24f79.js" as="script"><link rel="preload" href="/assets/js/10.84a9d02b.js" as="script"><link rel="prefetch" href="/assets/js/3.2df4945c.js"><link rel="prefetch" href="/assets/js/4.c0902792.js"><link rel="prefetch" href="/assets/js/5.76768e5c.js"><link rel="prefetch" href="/assets/js/6.eb5c28ea.js"><link rel="prefetch" href="/assets/js/7.be2e5691.js"><link rel="prefetch" href="/assets/js/8.b96d1d35.js"><link rel="prefetch" href="/assets/js/9.31398815.js">
+    <link rel="stylesheet" href="/assets/css/0.styles.7b36eabc.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/" class="home-link router-link-active"><img src="/avatar.png" alt="许益样的博客" class="logo"> <span class="site-name can-hide">许益样的博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/" class="nav-link">
+  效果集合
+</a></div><div class="nav-item"><a href="/web-interview/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  面试题
+</a></div><div class="nav-item"><a href="/article/" class="nav-link">
+  文章
+</a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/" class="nav-link">
+  效果集合
+</a></div><div class="nav-item"><a href="/web-interview/" aria-current="page" class="nav-link router-link-exact-active router-link-active">
+  面试题
+</a></div><div class="nav-item"><a href="/article/" class="nav-link">
+  文章
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>面试</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/web-interview/#mobx和redux区别" class="sidebar-link">mobx和redux区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/web-interview/#vue和react的区别" class="sidebar-link">vue和react的区别</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/web-interview/#tcp三次握手" class="sidebar-link">TCP三次握手</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/web-interview/#链判断运算符-optional-chaining" class="sidebar-link">链判断运算符(Optional Chaining)</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/web-interview/#构造函数包含return" class="sidebar-link">构造函数包含return</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/web-interview/#js实现深拷贝的几种方法" class="sidebar-link">js实现深拷贝的几种方法</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/web-interview/#常用状态码" class="sidebar-link">常用状态码</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/web-interview/#eventloop" class="sidebar-link">Eventloop</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/web-interview/#react-diff-原理-就是一个函数" class="sidebar-link">react diff 原理：(就是一个函数)</a><ul class="sidebar-sub-headers"></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="面试"><a href="#面试" class="header-anchor">#</a> 面试</h1> <h2 id="mobx和redux区别"><a href="#mobx和redux区别" class="header-anchor">#</a> mobx和redux区别</h2> <p>1.redux状态是只读的，不能直接修改它；mobx状态可变的，可以直接修改<br>
+2.mobx相对来说状态管理更加简单，学习成本低<br>
+3.mobx面向对象编程，使用observer绑定状态，观察这个状态，一旦变更就自动更新；redux函数式编程，reducer就是一个存函数，接受输出然后输出新状态，每次都是返回一个新的数据</p> <h2 id="vue和react的区别"><a href="#vue和react的区别" class="header-anchor">#</a> vue和react的区别</h2> <p>vue是mvvm，双向绑定，他监听的是一个数据变化然后去改变ui；
+react是单向数据流，讲求一个函数式编程，一个函数代表一个ui组件，数据不可变。状态变更时，记录新树和旧树的差异，最后把差异更新到真正的dom中</p> <h2 id="tcp三次握手"><a href="#tcp三次握手" class="header-anchor">#</a> TCP三次握手</h2> <p>1、客户端发送syn包到服务器，等待服务器确认接收。2、服务器确认接收syn包并确认客户的syn，并发送回来一个syn+ack的包给客户端。3、客户端确认接收服务器的syn+ack包，并向服务器发送确认包ack，二者相互建立联系后，完成tcp三次握手。四次握手就是中间多了一层 等待服务器再一次响应回复相关数据的过程</p> <h2 id="链判断运算符-optional-chaining"><a href="#链判断运算符-optional-chaining" class="header-anchor">#</a> 链判断运算符(Optional Chaining)</h2> <p>ES2020链判断运算符，使用a?.c?.b代替a &amp;&amp; a.c &amp;&amp; a.c.b</p> <h2 id="构造函数包含return"><a href="#构造函数包含return" class="header-anchor">#</a> 构造函数包含return</h2> <div class="language- extra-class"><pre class="language-text"><code>function A(){
+  this.x=3
+  return 'ok'; //如果返回基本数据类型，仍然会返回新对象实列
+}
+var b = new A()
+b.x; //3
+----------------
+function A(){
+  this.x=3
+  return {x: 4}; //如果返回引用类型（对象、数组、函数），返回值就是return的值
+}
+var b = new A()
+b.x; //4
+</code></pre></div><h2 id="js实现深拷贝的几种方法"><a href="#js实现深拷贝的几种方法" class="header-anchor">#</a> js实现深拷贝的几种方法</h2> <p>1.使用es6</p> <div class="language- extra-class"><pre class="language-text"><code>var a=[1,2,3]
+var b=[...a];
+</code></pre></div><p>2.使用concat()方法</p> <div class="language- extra-class"><pre class="language-text"><code>var a=[1,2,3]
+var c=[];
+var b=c.concat(a);
+</code></pre></div><p>3.使用递归</p> <div class="language- extra-class"><pre class="language-text"><code>function deep(obj) {
+  //判断拷贝的要进行深拷贝的是数组还是对象，是数组的话进行数组拷贝，对象的话进行对象拷贝
+  var objClone = Array.isArray(obj) ? [] : {};
+  //进行深拷贝的不能为空，并且是对象或者是
+  if (obj &amp;&amp; typeof obj === &quot;object&quot;) {
+    for (key in obj) {
+      if (obj.hasOwnProperty(key)) {//只遍历自身属性
+        if (obj[key] &amp;&amp; typeof obj[key] === &quot;object&quot;) {
+          objClone[key] = deep(obj[key]);
+        } else {
+          objClone[key] = obj[key];
+        }
+      }
+    }
+  }
+  return objClone;
+}
+</code></pre></div> <h2 id="常用状态码"><a href="#常用状态码" class="header-anchor">#</a> 常用状态码</h2> <ul><li>1xx（请求处理中）</li> <li>2xx（请求处理完毕）
+<ul><li>200（请求成功）</li></ul></li> <li>3xx（重定向）
+<ul><li>301（永久重定向）</li> <li>302（临时重定向）</li> <li>304（请求资源没有变化，使用缓存）</li></ul></li> <li>4xx（客户端请求错误）
+<ul><li>400（请求参数错误）</li> <li>401（没有权限访问，一般表示未登陆）</li> <li>403（禁止访问，一般表示权限不够，需要更高的权限）</li> <li>404（请求的资源不存在）</li></ul></li> <li>5xx（服务器端错误）
+<ul><li>500（服务器内部出错）</li> <li>503（服务器在维护）</li></ul></li></ul> <h2 id="eventloop"><a href="#eventloop" class="header-anchor">#</a> Eventloop</h2> <p>在node中,其中有3个阶段,他们的执行顺序：<br>
+times -&gt; poll（停留，一直等到有任务才往下一个阶段） -&gt; check<br>
+对应api:<br>
+times -&gt; setTimeout/setInterval<br>
+check -&gt; setImmediate<br>
+当前阶段后面执行api：<br>
+nextTick -&gt; 如：times(setTimeout)中写nextTick,执行顺序就是time -&gt; nextTick -&gt; poll<br>
+promise.then(fn) -&gt; then后立即把fn放入当前队列后面<br>
+await同promise，resolve后放入队列</p> <p>在chrome中，2个阶段：<br>
+宏任务（一会执行）MacroTask<br>
+微任务（马上执行）MicroTask<br>
+对应api:<br>
+宏任务 -&gt; setTimeout/setInterval<br>
+微任务 -&gt; promise.then(fn)（then后立即把fn放入当前队列后面）/ await转promise<br>
+注: new Promise(fn),这个fn是立即执行的，不放进任何阶段</p> <h2 id="react-diff-原理-就是一个函数"><a href="#react-diff-原理-就是一个函数" class="header-anchor">#</a> react diff 原理：(就是一个函数)</h2> <p>使用tree diff将新旧两棵树逐层对比，找出那些节点需要更新，如果节点是组件使用component diff，如果是标签使用element diff<br>
+component diff：如果不同组件，直接删除替换，相同只更新属性<br>
+element diff：不同标签直接删除替换，相同只更新属性<br>
+key作用，来标识一个组件，来判断是选择删除还是移动操作，比如，a-b组件，当只是位置换成b-a,如果有添加key值，那只进行位置交换</p></div> <footer class="page-edit"><!----> <!----></footer> <!----> </main></div><div class="global-ui"></div></div>
+    <script src="/assets/js/app.a5311784.js" defer></script><script src="/assets/js/2.eeb24f79.js" defer></script><script src="/assets/js/10.84a9d02b.js" defer></script>
+  </body>
+</html>
